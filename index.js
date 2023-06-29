@@ -22,7 +22,7 @@ async function invokeAction({ action, id, name, email, phone }) {
     switch (action) {
         case 'list':
             const allContacts = await listContacts();
-            console.log(allContacts);
+            console.table(allContacts);
             break;
 
         case 'get':
@@ -46,10 +46,3 @@ async function invokeAction({ action, id, name, email, phone }) {
 }
 
 invokeAction(argv);
-
-/*
-    1. list:     / node index -a list /
-    2. get:      / node index -a get -i sIoX7X5crlWhjGtUWs7Au /
-    3. add:      / node index -a add -n Kostiantyn -e kostiantyn@mail.com -p 095-888-39-59 /
-    4. femove:   / node index -a remove -i sIoX7X5crlWhjGtUWs7Au /
-*/
