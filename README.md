@@ -1,4 +1,22 @@
 # nodejs-hw-1
 
-скриншоты выполнения команд:
-https://www.dropbox.com/sh/plcdwqdqexuyx7d/AAC0ZcJgTYPcbsS_A-U2pikTa?dl=0
+Навчальний проект в школі GoIT  
+Домашне завдання 1
+
+## Скріншоти виконання команд
+
+### List
+
+![Screenshot list](./assets/1-list.jpg)
+
+### Get
+
+![Screenshot get](./assets/2-get.jpg)
+
+### Add
+
+![Screenshot add](./assets/3-add.jpg)
+
+### Remove
+
+![Screenshot remove](./assets/4-remove.jpg)
